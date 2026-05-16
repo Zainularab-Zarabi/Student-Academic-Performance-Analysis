@@ -78,16 +78,6 @@ Visualization techniques included:
 
 ---
 
-## Key Findings
-- G2 was the strongest predictor of final performance
-- Past failures showed a strong negative impact on grades
-- Study time had moderate influence
-- Lifestyle and family-related factors showed weak or limited impact
-
-Overall the analysis showed that academic history is a much stronger predictor of student success than lifestyle-related variables.
-
----
-
 ## Screenshots
 
 ### Academic & Family Dashboard
@@ -95,6 +85,16 @@ Overall the analysis showed that academic history is a much stronger predictor o
 
 ### Lifestyle & Behavioral Dashboard
 ![Dashboard 2](./images/3.png)
+
+---
+
+## Key Findings
+- G2 was the strongest predictor of final performance
+- Past failures showed a strong negative impact on grades
+- Study time had moderate influence
+- Lifestyle and family-related factors showed weak or limited impact
+
+Overall the analysis showed that academic history is a much stronger predictor of student success than lifestyle-related variables.
 
 ---
 
