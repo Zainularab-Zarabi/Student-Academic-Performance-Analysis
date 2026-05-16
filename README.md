@@ -92,10 +92,10 @@ Overall the analysis showed that academic history is a much stronger predictor o
 ## Screenshots
 
 ### Dashboard Page 1 — Academic & Family Determinants
-![Dashboard Page 1](images/dashboard-2.png)
+![Dashboard Page 1](2.png)
 
 ### Dashboard Page 2 — Lifestyle & Behavioral Influences
-![Dashboard Page 2](images/dashboard-3.png)
+![Dashboard Page 2](3.png)
 
 ---
 
