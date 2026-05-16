@@ -14,6 +14,11 @@ The main objective of this project was to identify the strongest predictors of f
 - Includes academic, demographic, family, and lifestyle data
 
 ---
+## Tools Used
+- Excel
+- Power BI
+- Power Query
+  
 
 ## Data Preparation
 The project followed a complete BI workflow:
