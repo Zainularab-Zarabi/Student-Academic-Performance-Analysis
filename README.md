@@ -1,44 +1,96 @@
-# Student Performance Analytics Dashboard
+# Analyzing Factors Affecting Student Academic Performance
 
-## Overview
-This project presents an interactive Power BI dashboard analyzing student academic performance and related lifestyle, family, and school factors. The dataset was organized into a normalized 3NF structure before being loaded into Power BI for modeling and visualization.
+## Project Overview
+This project analyzes the factors affecting secondary school students’ academic performance using Business Intelligence techniques and interactive data visualization. The analysis was performed using the UCI Student Performance dataset containing 395 students from two Portuguese secondary schools.
 
-The goal of this project was to practice the full Business Intelligence workflow: preparing structured data, building relationships, creating visuals, and communicating insights through a dashboard.
+The main objective of this project was to identify the strongest predictors of final student performance (G3) and compare the impact of academic, family, and lifestyle-related variables through an interactive Power BI dashboard.
 
-## Tools Used
-- Power BI
-- Power Query
-- Excel
-- Data modeling
-- Data visualization
-- Dashboard design
+---
 
-## Project Files
-- `dashboard/Student_Performance_Dashboard.pbix` — Power BI dashboard file
-- `data/student_performance_3NF.xlsx` — normalized Excel data used for the dashboard
-- `images/` — dashboard screenshots to be added for quick preview
+## Dataset
+- Source: UCI Machine Learning Repository
+- 395 students
+- 33 original variables
+- Includes academic, demographic, family, and lifestyle data
 
-## Key Work Completed
-- Organized the dataset into normalized relational tables
-- Loaded the data into Power BI
-- Built relationships between tables
-- Created dashboard visuals to explore academic performance patterns
-- Used visual storytelling to compare student performance with behavioural and demographic factors
+---
 
-## Dashboard Focus
-The dashboard focuses on understanding how different factors may relate to student academic outcomes, including school-related, family-related, and lifestyle-related variables.
+## Data Preparation
+The project followed a complete BI workflow:
 
-## My Contribution
-I worked on preparing the structured dataset, building the Power BI dashboard, creating relationships between tables, and designing visuals to communicate insights clearly.
+- Initial data exploration in Excel
+- Normalization into Third Normal Form (3NF)
+- Creation of 5 related tables:
+  - Students
+  - Demographics
+  - Family
+  - Lifestyle
+  - Support
+- Data transformation using Power Query
+- Creation of derived features and DAX measures in Power BI
+
+### Derived Features
+- Pass / Fail
+- Performance Category
+- Lifestyle Index
+- Total Alcohol Consumption
+- Parent Education Groups
+
+### DAX Measures
+- Average Final Grade (G3)
+- Average Second Grade (G2)
+- Total Students
+- Pass Rate
+
+---
+
+## Dashboard and Visualizations
+Two interactive dashboard pages were created:
+
+### Academic & Family Determinants
+- G2 vs G3 Scatter Plot
+- Failures Analysis
+- Study Time Analysis
+- Parent Education
+- Family Relationship
+- Pass/Fail Distribution
+
+### Lifestyle & Behavioral Influences
+- Lifestyle Index
+- Alcohol Consumption
+- Paid Tutoring
+- Romantic Relationships
+- Travel Time
+- Health Analysis
+- Heatmap Visualization
+
+Visualization techniques included:
+- Scatter plots
+- Bar and column charts
+- Donut charts
+- Heatmaps
+- Interactive filtering
+
+---
+
+## Key Findings
+- G2 was the strongest predictor of final performance
+- Past failures showed a strong negative impact on grades
+- Study time had moderate influence
+- Lifestyle and family-related factors showed weak or limited impact
+
+Overall the analysis showed that academic history is a much stronger predictor of student success than lifestyle-related variables.
+
+---
 
 ## Screenshots
-Add dashboard screenshots inside the `images/` folder, then insert them here.
 
-Example:
+---
 
-```markdown
-![Dashboard Overview](images/dashboard-overview.png)
-```
+## Conclusion
+This project demonstrates how Business Intelligence and data visualization can be used to analyze educational data and identify meaningful performance patterns. The dashboard supports interactive exploration and highlights the importance of data driven decision making in education.
 
-## Notes
-This project was created as an academic Business Intelligence and Data Visualization project. The focus was on dashboard design, data modeling, and communicating insights from structured student performance data.
+---
+
+## Author
+**Zainularab Zarabi**
